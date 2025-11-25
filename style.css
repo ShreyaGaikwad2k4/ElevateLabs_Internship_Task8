@@ -1,0 +1,180 @@
+/* ===== HEADER STYLING (Bootstrap Modified) ===== */
+.custom-header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    padding: 1rem 0;
+}
+
+.custom-logo {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #1f2937 !important;
+}
+
+.custom-nav .nav-link {
+    font-weight: 600;
+    color: #4b5563 !important;
+    margin-left: 1.5rem;
+}
+
+.custom-nav .nav-link:hover {
+    color: #3b82f6 !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+/* ===== BLOG CARDS ===== */
+.blog-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ===== FOOTER ===== */
+.custom-footer {
+    background-color: #1f2937;
+    color: #d1d5db;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 1px solid #374151;
+}
+
+.custom-footer p {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.social-links a {
+    margin: 0 1rem;
+    color: #9ca3af;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #3b82f6;
+}
+
+/* Button */
+.read-more-btn {
+    background-color: rgba(59, 130, 246, 0.85);
+    border: none;
+}
+
+.read-more-btn:hover {
+    background-color: rgba(37, 99, 235, 0.9);
+}
+
+/* social icon layout */
+.social-links {
+  display: inline-flex;
+  gap: 0.75rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  color: #9ca3af;
+  background: transparent;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: color .15s ease, background-color .15s ease, transform .08s ease;
+}
+
+.social-icon:hover {
+  color: #fff;
+  background: rgba(59,130,246,0.18);
+  transform: translateY(-2px);
+}
+
+/* screen-reader text */
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+
+/* ===========================
+   RESPONSIVE DESIGN
+   =========================== */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+
+    /* Reduce heading size */
+    h1, h2, h3 {
+        font-size: 90%;
+    }
+
+    /* Make containers full width */
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    /* Navigation stack neatly */
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    /* Images scale better */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Sections spacing adjustment */
+    section {
+        padding: 20px 10px;
+    }
+}
+
+
+/* Mobile (480px and below) */
+@media (max-width: 480px) {
+
+    /* Smaller headings */
+    h1 {
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Stack content vertically */
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /* Buttons full width */
+    button,
+    .btn {
+        width: 100%;
+    }
+
+    /* Center text for readability */
+    .text-left,
+    .text-right {
+        text-align: center;
+    }
+
+    /* Reduce footer spacing */
+    footer {
+        padding: 15px 5px;
+        text-align: center;
+    }
+}
