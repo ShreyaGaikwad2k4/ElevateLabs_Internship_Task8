@@ -16,7 +16,9 @@ https://shreyagaikwad2k4.github.io/ElevateLabs_Internship_Task8/
  Files & Description 
 -------------------
  index.html: Main HTML page using Bootstrap CDN 
+ 
  style.css : Custom styling overriding Bootstrap classes 
+
  script.js : Basic JavaScript file 
 
 ---
@@ -53,5 +55,3 @@ LinkedIn: www.linkedin.com/in/shreya-gaikwad-2k4
 GitHub: https://github.com/ShreyaGaikwad2k4
 
 ---
-
-Thank you for reviewing my work.
